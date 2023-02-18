@@ -31,3 +31,117 @@ p.more {
 }
 
 /* Your code here */
+
+*{
+   font: "Helvetica Neue", "Helvetica", "sans-serif";
+   color: #464646;
+   background-color: #f5f5f5;
+}
+a{
+  text-decoration: none;
+}
+
+ul{
+  padding: 0;
+}
+
+ul li{
+  list-style: none;
+}
+a:hover{
+  font-weight: bold;
+  color:#800080
+}
+a:visited{
+  color: #800080;
+}
+
+
+.container{
+  max-width: 1200px;
+
+}
+
+#leftbar, #rightbar, #center{
+  float: left;
+  padding: 0px 30px;
+  box-sizing: border-box;
+}
+#center{
+  display: grid;
+}
+
+footer{
+  clear: both;
+}
+
+#leftbar, #rightbar{
+  width: 25%;
+}
+
+#center{
+  width: 50%;
+  border:  1px solid #464646 ;
+  border-radius: 10px ;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+}
+
+ #centre > div {
+  float: left;
+  width: 33%;
+}
+h2 #topban{
+  text-align: center;
+}
+
+footer + .clfoooter ul{
+  text-align: center;
+  border: 1px solid gray;
+  padding: 10px 0px;
+}
+
+footer > .clfooter li{
+  display: inline;
+   padding-right: 5px;
+}
+
+#topban h2 {
+  text-align: center;
+}
+
+.ban::before{
+  content: '☮️';
+  margin-right: 4px ;
+
+}
+
+td{
+  border: 1px solid #333;
+  text-align: center;
+
+}
+
+.cal{
+  border-collapse: collapse;
+}
+
+.cal a {
+  color: green;
+  font-weight: bold;
+}
+
+td:hover {
+  background-color: lavender;
+}
+
+td.past {
+  color: rgba(0, 0, 0, 0.5);
+  cursor: not-allowed;
+}
+
+td.today,
+td.today a {
+  background-color: rgb(70, 28, 70);
+  color: white;
+}
